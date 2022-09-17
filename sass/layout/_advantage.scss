@@ -14,11 +14,11 @@
   column-gap: 30px;
 }
 
-.work-list-item {
+.work-list__item {
   position: relative;
 }
 
-.work-overlay {
+.work-list__overlay {
   @extend %align;
   position: absolute;
   bottom: 0;

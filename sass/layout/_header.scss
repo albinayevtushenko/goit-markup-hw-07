@@ -23,7 +23,7 @@
   column-gap: 50px;
 }
 
-.nav-list .nav-list__link {
+.nav-list-link {
   display: block;
   padding: 32px 0;
 
@@ -78,15 +78,15 @@
   margin-right: 10px;
   transition: fill var(--transition-dur-and-func);
 
-  .list .mail:hover &,
-  .list .mail:focus &,
-  .list .tel:hover &,
-  .list .tel:focus & {
+  .mail:hover &,
+  .mail:focus &,
+  .tel:hover &,
+  .tel:focus & {
     fill: var(--main-accent-color);
   }
 }
 
-.nav-list__link_current {
+.current {
   color: var(--main-accent-color);
   position: relative;
 

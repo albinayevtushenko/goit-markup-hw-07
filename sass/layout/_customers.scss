@@ -3,12 +3,12 @@
   column-gap: 30px;
 }
 
-.regular-customers-list-item {
+.regular-customers-list__item {
   width: 170px;
   height: 92px;
 }
 
-.regular-customers-list-link {
+.regular-customers-list__link {
   @extend %align;
   width: 100%;
   height: 100%;
@@ -22,12 +22,12 @@
   }
 }
 
-.regular-customers-list-icon {
+.regular-customers-list__icon {
   fill: #afb1b8;
   transition: fill var(--transition-dur-and-func);
 
-  .regular-customers-list-link:hover &,
-  .regular-customers-list-link:focus & {
+  .regular-customers-list__link:hover &,
+  .regular-customers-list__link:focus & {
     fill: var(--main-accent-color);
   }
 }

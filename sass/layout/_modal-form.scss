@@ -105,7 +105,7 @@
   position: absolute;
 }
 .modal-form-check-label {
-  @extend %align;
+  @extend %align !optional;
   margin-bottom: 30px;
 }
 

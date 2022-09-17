@@ -6,8 +6,8 @@
 @import './base/section';
 @import './base/container';
 
-@import './layout/header';
 @import './layout/hero';
+@import './layout/header';
 @import './layout/backdrop';
 @import './layout/modal-form';
 @import './layout/advantage';
@@ -27,4 +27,4 @@
 @import './components/favor-btn';
 @import './components/logo';
 @import './components/modal-form-btn';
-@import './base/_functions.css';
+@import './base/functions';
