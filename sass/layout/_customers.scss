@@ -1,0 +1,33 @@
+.regular-customers-list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.regular-customers-list-item {
+  width: 170px;
+  height: 92px;
+}
+
+.regular-customers-list-link {
+  @extend %align;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition: border var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--main-accent-color);
+  }
+}
+
+.regular-customers-list-icon {
+  fill: #afb1b8;
+  transition: fill var(--transition-dur-and-func);
+
+  .regular-customers-list-link:hover &,
+  .regular-customers-list-link:focus & {
+    fill: var(--main-accent-color);
+  }
+}
